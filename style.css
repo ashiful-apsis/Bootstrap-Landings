@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+.main_cover { 
+    font-family: 'Poppins', sans-serif;
+}
+.main_cover .cover_banner {
+    background: url("https://blogzine.webestica.com/assets/images/blog/16by9/06.jpg");
+    height: 400px;
+    display: block;
+}
+
+.category_section {
+    position: relative;
+    top: -200px;
+}
+
+.ip_card {
+    padding: 20px 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 20px rgb(0 0 0 / 30%);
+}
+
+.ip_card_body {
+    text-align: center; 
+    padding: 30px;
+}
+
+.ip_card_title {
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.ip_card_text { 
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.ip_btn_info { 
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #b10202;
+    color: #fff;
+}
+
+.ip_btn_info:hover {
+    background: #05539c;
+    color: #fff;
+}
+
+.ip_btn_div {
+    margin-top: 3.5rem;
+}
+
+.about_section {
+    position: relative;
+    top: -150px;
+}
+.ip_text {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.footer_bg {
+    background: #183153;
+    color: #fff;
+}
