@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .contact_card {
+            padding: 4%;
+        }
+
+        .col-md-4 {
+            background: #68B984;
+            padding: 4%;
+            border-top-left-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+        }
+
+  
+        .col-md-8 {
+            background: #fff;
+            padding: 20px 40px;
+            border-top-right-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            border: 1px solid #68B984;
+        } 
+        
+        .contact-form h2,h5 {
+            color: #fff;
+        }
+
+        .contact-form button {
+            background: #68B984;
+            color: #3D5656;
+            font-weight: 500;
+            width: 100%;
+            float: right;
+            position: relative;
+            bottom: -30px;
+        }
+
+        .contact-form button:hover {
+            background: #3D5656;
+            color: #68B984;
+        }
+
+        .contact-form button:focus {
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_cover">
+        <div class="cover_banner"> </div>
+
+        <div class="container">
+            <div class="contact_card">
+                <div class="row ">
+                    <div class="col-md-4">
+                        <div class="contact-info"> 
+                            <h2 class="mb-4">Contact Us</h2>
+                            <h5><i class="fa-regular fa-envelope pe-3"></i> customers@finproresources.com</h5>
+                            <h5><i class="fa-solid fa-mobile-screen-button pe-3"></i> +880123-456789</h5>
+                            <h5><i class="fa-solid fa-fax pe-3"></i> +880123-456789</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <form class="row g-3 contact-form">
+                            <div class="col-md-6">
+                                <label for="fname" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="fname" placeholder="Ashiful">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lname" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lname" placeholder="Islam">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="mail@gmail.com">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label"> Phone</label>
+                                <input type="number" class="form-control" id="phone" placeholder="+880123456789">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="company" class="form-label">Company Name</label>
+                                <input type="text" class="form-control" id="company" placeholder="Apsis Solutions Ltd">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="company" class="form-label">Company Name</label>
+                                <input type="text" class="form-control" id="company" placeholder="Apsis Solutions Ltd">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="jobs" class="form-label">Job Roles</label>
+                                <input type="text" class="form-control" id="jobs" placeholder="Front-End Developer">
+                            </div>
+                            <div class="col-md-6"> 
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div> 
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="footer_bg">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
+                    <p>© 2022 Apsis Solutions Ltd. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3">
+                            <a class="link-light" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="link-light" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="link-light" href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
