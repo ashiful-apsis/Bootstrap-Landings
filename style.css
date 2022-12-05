@@ -6,7 +6,8 @@
     font-family: 'Federo', sans-serif;
 }
 .main_cover .cover_banner {
-    background: url("images/cover_bg.png");
+    /* background: url("images/cover_bg.png"); */
+    background: #68B984;
     height: 450px;
     display: block;
     background-size: cover;
@@ -27,6 +28,7 @@
     box-shadow: 2px 2px 20px rgb(0 0 0 / 30%);
     transition: transform .5s;
     margin-bottom: 15px;
+    min-height: 330px;
 }
 
 .ip_card:hover {
@@ -127,4 +129,25 @@
 .footer_bg {
     background: #183153;
     color: #fff;
+}
+
+.btn-primary {
+    background: #68B984;
+    color: #ffffff;
+    font-weight: 500;
+    margin: auto;
+    display: flex;
+    padding: 4px 40px;
+    font-size: 20px;
+    text-align: center;
+    border: #68B984;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #68B984;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
 }
