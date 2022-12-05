@@ -6,8 +6,8 @@
     font-family: 'Federo', sans-serif;
 }
 .main_cover .cover_banner {
-    /* background: url("images/cover_bg.png"); */
-    background: #68B984;
+    background: url("images/cover_bg.jpg");
+    /* background: #68B984; */
     height: 450px;
     display: block;
     background-size: cover;
