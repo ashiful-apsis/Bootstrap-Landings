@@ -6,7 +6,7 @@
     font-family: 'Federo', sans-serif;
 }
 .main_cover .cover_banner {
-    background: url("https://blogzine.webestica.com/assets/images/blog/16by9/04.jpg");
+    background: url("images/cover_bg.png");
     height: 450px;
     display: block;
     background-size: cover;
