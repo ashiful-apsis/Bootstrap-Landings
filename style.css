@@ -71,7 +71,9 @@
 }
 
 .ip_btn_div {
-    margin-top: 3.5rem;
+    position: absolute;
+    bottom: 10%;
+    left: 37%;
 }
 
 .about_section {
