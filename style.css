@@ -6,12 +6,20 @@
     font-family: 'Federo', sans-serif;
 }
 .main_cover .cover_banner {
-    background: url("images/cover_bg.jpg");
-    /* background: #68B984; */
-    height: 450px;
+    /* background: url("images/cover_bg.jpg"); */
+    /* background: #8be3aa; */
+    background-image: linear-gradient(to top, #86cb9e, rgb(206 255 223 / 28%)); 
+    height: 480px;
     display: block;
     background-size: cover;
     background-position: center center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main_cover .cover_banner img {
+    width: 180px;
+    height: auto;
 }
 
 .category_section {
