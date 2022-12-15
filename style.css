@@ -18,8 +18,9 @@
 }
 
 .main_cover .cover_banner img {
-    width: 180px;
+    width: 25%;
     height: auto;
+    margin-top: 4%;
 }
 
 .category_section {
